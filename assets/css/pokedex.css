@@ -1,3 +1,4 @@
+/* overall aesthetic */
 .pokemons {
     display: grid;
     grid-template-columns: 1fr;
@@ -6,6 +7,7 @@
     list-style: none;
 }
 
+/* color by type */
 .normal {
     background-color: #a6a877;
 }
@@ -78,6 +80,8 @@
     background-color: #f9aec7;
 }
 
+
+/* box layout */
 .pokemon {
     display: flex;
     flex-direction: column;
@@ -146,6 +150,7 @@
     border-radius: 1rem;
 }
 
+/* making it responsive */
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;

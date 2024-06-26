@@ -1,12 +1,15 @@
+/* font and border */
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
+/* page background */
 body {
     background-color: #f6f8fc;
 }
 
+/* section */
 .content {
     width: 100vw;
     height: 100vh;
@@ -14,6 +17,7 @@ body {
     background-color: #fff;
 }
 
+/* making it responsive */
 @media screen and (min-width: 992px) {
     .content {
         max-width: 992px;
